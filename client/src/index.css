@@ -5,6 +5,11 @@ body {
   background-color: #f2f2f2;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 .movie-card {
   background-color: #fff;
   border: 0;
@@ -14,6 +19,11 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+}
+
+.movie-card a {
+  text-decoration: none;
+  color: black;
 }
 
 .movie-director {
